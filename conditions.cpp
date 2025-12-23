@@ -13,5 +13,25 @@ int main(){
   else{
     cout<<"You are an adult!"<<endl;
   }
+  
+
+
+  int age1;
+  cout<<"Enter second persons age:";
+  cin>>age1;
+  switch (age1)
+  {
+    case 18:
+    cout<<"You are 18";
+    break;
+
+    case 20:
+    cout<<"you are 20";
+    break;
+
+    default :
+    cout<<"no default case";
+    break;
+  }
   return 0;
 }
