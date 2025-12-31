@@ -2,9 +2,10 @@
 using namespace std;
 
 inline int product (int x,int y){
-  static int c = 0; // this executes only once
-  c = c+1; // Next time the function will run, it will remember this value. 
-  return x*y*c;
+  //static int c = 0; // this executes only once 
+   // NOTE : NOT A GOOD PRACTICE TO USE INLINE WITH STATIC VARIABLES.
+  // c = c+1; // Next time the function will run, it will remember this value. 
+  return x*y;
 }
 
 
