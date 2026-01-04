@@ -25,7 +25,7 @@ void Employee :: setData(int a1, int b1, int c1){
 
 int main(){
     Employee kartik;
-    kartik.d = 34;
+    kartik.d = 33;
     kartik.e = 89;
     kartik.setData(1,2,4);
     kartik.getData();
